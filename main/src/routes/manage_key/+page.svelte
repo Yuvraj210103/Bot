@@ -25,7 +25,7 @@
 	}
 
 	async function checkFreeLoginStatus() {
-		let logedInData = (await axios.get(`/api/free_status`)).data;
+		//let logedInData = (await axios.get(`/api/free_status`)).data;
 		isFreeLoggedIn = logedInData.status;
 	}
 

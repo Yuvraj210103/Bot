@@ -1,83 +1,80 @@
-<p align="center">
-    <img alt="ViewCount" src="https://views.whatilearened.today/views/github/JijaProGamer/Youtube-View-Bot.svg">
-    <img alt="OS" src="https://img.shields.io/badge/OS-Windows%20/%20Mac%20/%20Linux-success">
-</p>
+## 🚀 Installation Instructions
 
-# THE ONLY WORKING FREE AND OPEN SOURCE YOUTUBE&RUMBLE VIEW BOT ON THE MARKET AS OF MAY 12 2024
+> ⚠️ **WARNING 1:** Not following **any** of the steps correctly may result in a **broken installation**, requiring a **complete Node.js and bot reinstallation**.
+> ⚠️ **WARNING 2:** On **Windows**, **do NOT run or install** the bot as Administrator — this may **corrupt files** and force you to reinstall the bot.
 
-# 🚀 YouTube & Rumble Watch Bot 🎥
 
-## Comprehensive Tutorial and Extensive Documentation 📚
+### 📦 Step 1: Install Node.js (Version 18.20.04 Required)
 
-For detailed instructions on harnessing the full potential of the YouTube&Rumble Watch Bot and exploring its myriad features, we provide a comprehensive documentation page:
+* You must install **Node.js 18.20.04**.
+* During installation, **check the box for "Extra Tools"**. Do **not** skip any installation pages.
 
-🔗 [Explore the Documentation](https://www.bloxxy.net/projects/1) 🔗
+#### 🔗 Download Node.js:
 
-## Supporting Development 💖
+* **Windows:** [Download from NodeJS website](https://nodejs.org/en) → Choose **v18.20.04**
+* **Linux:** Install via [nvm (Node Version Manager)](https://github.com/nvm-sh/nvm) → Then select **v18.20.04**
+* **macOS:** Install via [nvm (Node Version Manager)](https://github.com/nvm-sh/nvm) → Then select **v18.20.04**
 
-We are fully committed to continuously improving the YouTube Watch Bot and investing substantial time and effort into its development. To support our endeavors and show your appreciation for our work, we graciously accept donations. If you value the YouTube&Rumble Watch Bot and wish to contribute, please consider visiting our Patreon page and becoming a patron:
 
-🌟 [Support us on Patreon](https://www.patreon.com/Bloxxy213/membership) 🌟
-🌟 [Support us on PayPal](https://www.paypal.me/bloxxywashere) 🌟
+### 📥 Step 2: Clone the Repository
 
-## Introduction
+* Go to the View Bot’s GitHub page.
+* Click the **blue "Code" button**, then choose **"Download ZIP"**.
+* Unzip the folder if necessary.
 
-Welcome to the incredible world of YouTube&Rumble Watch Bot! Our state-of-the-art NodeJS program is specifically engineered to propel your YouTube and Rumble presence to unprecedented heights. By leveraging the power of our bot, you can effortlessly skyrocket your views, watch time, comments, and likes. Whether you're a content creator looking to boost your channel's performance or a marketer aiming to enhance the exposure of your videos, the YouTube&Rumble Watch Bot is your ultimate all-in-one solution. Prepare to unlock the true potential of your YouTube journey as we guide you through this comprehensive README file.
 
-## Why Choose Us? 🌟
+### 🛠️ Step 3: Install Dependencies
 
-1. Unparalleled Functionality 💪
+Run the installation script based on your OS:
 
-Experience an unrivaled level of functionality with our cutting-edge YouTube&Rumble Watch Bot. Equipped with advanced algorithms for view botting, customizable watch time, and engagement features, our program offers unparalleled versatility. Embrace the power of automation as you effortlessly enhance your YouTube and Rumble metrics, paving the way for optimum success and growth.
+* **Windows:**
 
-2. User-Friendly Interface 🎯
+  ```bash
+  install.bat
+  ```
 
-We prioritize your satisfaction, and our user-friendly interface reflects our commitment to providing a seamless experience. Navigating the feature-rich YouTube Watch Bot becomes a joyous endeavor, eliminating complexities and reducing the learning curve. Spend less time grappling with technicalities and more time focusing on your content creation and audience engagement.
+* **Linux & macOS:**
 
-3. Seamless YouTube and Rumble Integration 🌐
+  ```bash
+  ./install.sh
+  ```
 
-At YouTube&Rumble Watch Bot, we strive to seamlessly integrate with the YouTube and Rumble platforms, optimizing your experience and boosting your performance. Our program is designed to seamlessly align with YouTube's and Rumble's features and functionalities, ensuring a smooth and harmonious workflow. From bypassing unnecessary pages to intelligently navigating YouTube's and Rumble's ecosystems, our bot seamlessly integrates into your YouTube and Rumble strategy. With the YouTube&Rumble Watch Bot as your ally, you can effortlessly leverage the platform's capabilities, enhance your metrics, and elevate your online presence. Embrace a hassle-free and streamlined YouTube&Rumble journey with the YouTube&Rumble Watch Bot.
 
-## Requirements 📋
+### ▶️ Step 4: Running the Bot
 
-To harness the full power of the YouTube&Rumble Watch Bot, ensure that your system meets the following requirements:
+#### 🖥️ Option A: Run with UI Application
 
-- A connection speed of at least 2 megabits per minute per worker
-- Adequate proxies
-- A decent computer with reliable hardware to handle the workload
+* **Windows:**
 
-## Key Features 🌟
+  ```bash
+  run.bat
+  ```
 
-The YouTube&Rumble Watch Bot comes equipped with an impressive array of features designed to elevate your YouTube and Rumble strategy and maximize your results:
+* **Linux & macOS:**
 
-- 🖥️ Graphical User Interface (GUI): Effortlessly control and manage the program through our intuitive and user-friendly interface.
-- 🚦 Intelligent Bot Detection Bypass: Stay one step ahead with our advanced technology that bypasses bot detection mechanisms, ensuring smooth operation.
-- 🍪 Cookies and Consent Bypass: Bid farewell to pesky cookie prompts and consent pages that impede your progress. Our program seamlessly bypasses them, saving you valuable time.
-- 🎨 Unleash Your Creativity: Customize every aspect of the program, including extensions and settings, to align with your unique needs and vision.
-- 🧵 Multithreaded Performance: Harness the power of multitasking as our program supports up to 200 workers simultaneously, all while minimizing CPU usage.
-- 🎬 Diverse Video Watching Methods: Employ various techniques to watch videos, boosting your search engine optimization (SEO) efforts and expanding your reach.
-- 🌐 Bandwidth Optimization: Our program is optimized to utilize minimal bandwidth, consuming less than 3 megabits per minute per worker.
-- ⌛ Tailored Watch Time: Customize the desired watch time for each video, and enjoy the ability to leave likes and comments while logged in.
-- 🌐 Proxy Support: Seamlessly integrate with HTTP, HTTPS, SOCKS4, SOCKS5, and authentication-supported proxies to ensure smooth operation.
-- 🎥 Versatile Video Support: Enjoy comprehensive support for livestreams, regular videos, and shorts.
+  ```bash
+  ./headless_run.sh
+  ```
 
-## Topics 📖
+#### 🌐 Option B: Run Headlessly (Web-Controlled)
 
-For more detailed information on specific aspects of the YouTube&Rumble Watch Bot, refer to the following topics in our Wiki:
+* **Windows:**
 
-- [Getting Started](https://github.com/JijaProGamer/Youtube-Rumble-View-Bot/wiki/Getting-started)
-- [Proxies](https://github.com/JijaProGamer/Youtube-Rumble-View-Bot/wiki/Proxies)
+  ```bash
+  headless_run.bat
+  ```
 
-## IPRoyal Referral 👑
+* **Linux & macOS:**
 
-In search of reliable proxies? Consider using IPRoyal, a trusted proxy provider. Take advantage of our referral link for enhanced benefits:
+  ```bash
+  ./headless_run.sh
+  ```
 
-🔗 [IPRoyal Referral](https://iproyal.com?r=162918) 🔗
 
-## Contact Information 📞
+### 🌍 Accessing the Bot Interface
 
-Before reaching out to our team, we kindly request that you thoroughly review our Wiki for assistance. However, if you still require support or have any inquiries, you can contact us via Discord:
+Once running, control the bot via your browser:
 
-🔗 [Join our Discord Server](https://discord.gg/E7Kb2c9euw) 🔗
-
-Embark on an extraordinary YouTube journey with the YouTube Watch Bot, and witness your channel's growth like never before. Join us today and unleash your full potential!.//
+* [http://127.0.0.1:6554](http://127.0.0.1:6554) (Local machine)
+* Or:
+  `http://<ip_of_your_machine>:6554` (If running remotely)
