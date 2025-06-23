@@ -375,32 +375,14 @@
 						<span class="sidebar_btn_title">Settings</span>
 					</a>
 
-					<a
+					<!-- <a
 						class="sidebar_button red_sidebar"
 						href="/change_password"
 						class:green_sidebar={pLocation == 'change_password'}
 					>
 						<img src="/svgs/password.svg" alt="button svg" class="sidebar_image" />
 						<span class="sidebar_btn_title">Change password</span>
-					</a>
-
-					<a class="sidebar_button blue_sidebar" href="https://bloxxy.net/donate">
-						<img src="/svgs/donate.svg" alt="button svg" class="sidebar_image" />
-						<span class="sidebar_btn_title">Donate</span>
-					</a>
-
-					<a
-						class="sidebar_button blue_sidebar"
-						href="https://github.com/JijaProGamer/Youtube-View-Bot"
-					>
-						<img src="/svgs/github.svg" alt="button svg" class="sidebar_image" />
-						<span class="sidebar_btn_title">GitHub Project</span>
-					</a>
-
-					<a class="sidebar_button blue_sidebar" href="https://discord.gg/K7ExNKKqAC">
-						<img src="/svgs/discord.svg" alt="button svg" class="sidebar_image" />
-						<span class="sidebar_btn_title">Discord Server</span>
-					</a>
+					</a> -->
 				</div>
 			</div>
 		{/if}
