@@ -1,5 +1,4 @@
 <script lang="ts">
-	import axios from 'axios';
 	import Slider from '@bulatdashiev/svelte-slider';
 	import { opts, dataChanged, newData } from '../../background.js';
 
@@ -192,62 +191,6 @@
 					<p class="setting_info">After how many seconds to forcefully skip?</p>
 				</div>
 			{/if}
-		</div>
-	</div>
-
-	<div id="first_settings_tab">
-		<div class="settings_container container_rainbow">
-			<div class="setting_div">
-				<div class="same_line premium_title">
-					<h2 class="setting_name">Full feature access</h2>
-				</div>
-
-				<div class="same_line premium_line">
-					<p>
-						Subscribe to our patreon with a subscription of minimum 10 dollars per month for full
-						feature access.
-					</p>
-				</div>
-
-				<div class="same_line premium_line">
-					<p>
-						To get access to the full list of features, make an account on <a
-							class="patreon"
-							href="https://www.bloxxy.net/account">our website</a
-						>, log in with your patreon and make a 10$ subscription on our
-						<a class="patreon" href="https://www.patreon.com/Bloxxy213/membership">patreon</a>.
-					</p>
-				</div>
-
-				<div class="same_line premium_line">
-					<p>NOTE: Each subscription lasts one month.</p>
-				</div>
-
-				<div class="same_line premium_line">
-					<p>
-						After making a account and logging in with your patreon, copy your API Key and paste it
-						here:
-					</p>
-
-					<input
-						type="text"
-						class="premium_textbox"
-						bind:value={data.api_key}
-						style="margin-bottom: 1em;"
-					/>
-				</div>
-
-				<div class="same_line premium_line">
-					<p class="premium_status">Premium status:</p>
-
-					<p
-						style="margin-left: 0.5em"
-						class="premium_status premium_status_{isLoggedIn ? 'premium' : 'normal'}"
-					>
-						{isLoggedIn ? 'PREMIUM' : 'NON-PATREON'}
-					</p>
-				</div>
-			</div>
 		</div>
 	</div>
 </div>
