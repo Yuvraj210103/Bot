@@ -44,16 +44,12 @@
 		</form>
 
 		<div id="extra_holder">
-			<a class="extra_options" href="https://github.com/JijaProGamer/Youtube-View-Bot/wiki">Docs</a>
-			<a class="extra_options" href="https://github.com/JijaProGamer/Youtube-View-Bot">Github</a>
+			<a class="extra_options" href="https://github.com/Yuvraj210103/Bot/wiki">Docs</a>
+			<a class="extra_options" href="https://github.com/Yuvraj210103/Bot">Github</a>
 			<a class="extra_options" href="https://discord.gg/QRUafDAqHz">Discord</a>
 		</div>
 
-		<div id="donation_holder">
-			<a class="donation" href="https://www.paypal.me/bloxxywashere"
-				>❤️ Donate if you found this useful ❤️</a
-			>
-		</div>
+		
 	</div>
 </div>
 

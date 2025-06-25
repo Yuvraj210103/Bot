@@ -37,18 +37,18 @@
   "buildDependenciesFromSource": "true",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JijaProGamer/Youtube-View-Bot.git"
+    "url": "git+https://github.com/Yuvraj210103/Bot.git"
   },
   "keywords": [],
   "author": {
-    "name": "Bloxxy",
-    "email": "bloxxy213gmg@gmail.com"
+    "name": "Yuvraj Singh",
+    "email": "yuvrajssingh03@gmail.com"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/JijaProGamer/Youtube-View-Bot/issues"
+    "url": "https://github.com/Yuvraj210103/Bot/issues"
   },
-  "homepage": "https://github.com/JijaProGamer/Youtube-View-Bot#readme",
+  "homepage": "https://github.com/Yuvraj210103/Bot#readme",
   "devDependencies": {
     "@bulatdashiev/svelte-slider": "^1.0.3",
     "@electron-forge/cli": "^6.4.2",
